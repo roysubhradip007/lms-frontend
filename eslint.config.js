@@ -26,7 +26,8 @@ export default [
       'simple-import-sort': simpleImportSort,
     },
     rules: {
-      'simple-import-sort/imports': 'error',
+      'simple-import-sort/imports': 'error',      
+      'react/prop-types': ['off'],
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
